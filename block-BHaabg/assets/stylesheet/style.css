@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*  -----------Custom Style------------*/
+
+/*---------------common style----------------*/
+
+
+body {
+    line-height: 1.5;
+   background-color: rgba(6, 90, 90, 0.877);
+   text-align: center;
+
+}
+
+
+
+
+
+
+/*------------------specific Id------------*/
+
+
+
+
+
+	/*----------nav-tab-style-------------*/
+
+
+
+
+header {
+    background-color: rgb(67, 141, 85);
+	padding: 1% 3%;
+	position: fixed;
+	width: 95%;
+}
+.company_name {
+  float: left;
+  font-size: 20px;
+	font-weight: bold;
+}
+
+nav {
+	word-spacing: 20px;
+	float: right;
+	
+}
+nav a {
+	color: rgb(172, 5, 47);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/*--------------main--------------*/
+
+.box {
+	width: 43%;
+	vertical-align: top;
+	text-align: left;
+	float: left;
+    margin-left: 5%;
+	margin-top: 5%;
+
+}
+img {
+     width: 100%;
+}
+.box h2 {
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 5%;
+	
+}
+.box p {
+	font-size: 25px;
+	
+}
+
+.article_container {
+	display: inline-block;
+	/* padding: 1%; */
+	margin-top: 25px;
+	margin-bottom: 30px;
+
+}
+
+
+/*------------ gallery ------------*/
+
+.gallery {
+	width: 30.70%;
+	float: left;
+    margin-left: 2%;
+
+
+}
+
+.gallery_heading {
+	font-size: 50px;
+	color: brown;
+	display: inline-block;
+	border: 2px double rgb(55, 131, 175);
+	background-color: rgb(54, 133, 60);
+	font-weight: bold;
+	width: 15%;
+	margin-top: 6%;
+
+
+	
+}
+
+
+
+
+/*--------------Clear-fix---------*/
+
+
+.clearfix::before,.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.clearfix::after {
+	clear:both
+} 
+
+
+
+
+/*-------------footer--------------*/
+/* button {
+	text-align: center;
+	vertical-align: middle; */
+
+ .btn-Scroll-to-top {
+	 position: fixed;
+	 /* margin-left: 30%; */
+	 background-color: brown;
+	 width: 80px;
+	 height: 80px;
+	 font-size: 20px;
+	 border-radius: 50%;
+	 color: white;
+	 right: 10px;
+	 bottom: 10px;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	 border: none;
+	 outline: none;
+	
+	 
+ }
+ .btn-Scroll-to-top i {
+	 margin-top: 25px;
+ }
+ 
+
+
+
+
+
+footer {
+	background-color: rgb(67, 141, 85);
+	padding: 14px 3%;
+	vertical-align: b;font-size: 25px;
+	margin-top: 10%;
+
+	
+}
